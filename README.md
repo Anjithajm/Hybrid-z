@@ -2,9 +2,9 @@
 It is a deep learning package for the photometric redshift estimation from 4-band images and 9-band magnitudes.
 # Requirements
 
-Python 3.7 or later
-TensorFlow 2.19.0
-NumPy 2.1.3
+Python 3.7 or later\\
+TensorFlow 2.19.0\\
+NumPy 2.1.3\\
 Pandas 2.2.3
 Astropy 7.0.1
 scikit-learn 1.6.1
