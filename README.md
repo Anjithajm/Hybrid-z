@@ -1,6 +1,6 @@
 # Hybrid-z
 
-**Hybrid-z** is a deep learning package designed for photometric redshift estimation using 4-band imaging data combined with 9-band photometric magnitudes. This hybrid model leverages convolutional neural networks and fully connected layers to deliver accurate galaxy redshift predictions.
+**Hybrid-z** is a deep learning package designed for photometric redshift estimation using 4-band imaging data combined with 9-band photometric magnitudes. This hybrid model combines convolutional neural networks and fully connected layers for redshift predictions.
 
 ---
 
