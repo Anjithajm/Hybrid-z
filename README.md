@@ -37,14 +37,14 @@ python model.py \
 
 After training, **Hybrid-z** generates the following deliverables in the specified `output_dir`:
 
-### 📦 Model Artifacts
+## Model Artifacts
 - **Model Weights**  
   `model_weights.weights.h5`  
   Saved trained model weights for future inference or fine-tuning.
 
 ---
 
-### 📊 Diagnostic Plots
+## 📊 Diagnostic Plots
 
 - **Redshift Distribution Histogram**  
   `redshift_distribution.png`  
