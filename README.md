@@ -28,7 +28,6 @@ python model.py --input_file data.fits --output_dir ./output --image_column imag
 ```
 After training, **Hybrid-z** generates the following deliverables in the specified `output_dir`:
 
-## Model Artifacts
 - **Model Weights**  
   `model_weights.weights.h5`  
   Saved trained model weights for future inference or fine-tuning.
@@ -61,8 +60,8 @@ After training, **Hybrid-z** generates the following deliverables in the specifi
   - Spectroscopic redshift values (`Z_spec`)  
   - Predicted photometric redshift values (`Z_phot`)  
   - Residuals between predicted and true redshifts:
-    - `dz` = Δz = exp(Z_phot) - exp(Z_spec)
-    - `normalized_dz` = Δz / (1 + exp(Z_spec))
+    - `dz` = Δz = Z_phot - Z_spec
+    - `normalized_dz` = Δz / (1 + Z_spec)
 
 ---
 
