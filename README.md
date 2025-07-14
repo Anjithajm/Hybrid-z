@@ -78,7 +78,7 @@ After training, **Hybrid-z** generates the following deliverables in the specifi
 
 ---
 
-## Diagnostic Plots
+## Output
 
 - **Redshift Distribution Histogram**  
   `redshift_distribution.png`  
