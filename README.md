@@ -70,6 +70,8 @@ python model.py --input_file data.fits --output_dir ./output --image_column imag
 ```
 An early stopping criterion is employed, allowing the number of training epochs to be set to a relatively high value (e.g., `--epochs 200`). The training process will automatically terminate if no improvement in the validation loss is observed for a predefined number of consecutive epochs. 
 
+You can download the `data.fits` file for a test run 
+
 After training, **Hybrid-z** generates the following deliverables in the specified `output_dir`:
 
 - **Model Weights**  
