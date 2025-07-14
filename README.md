@@ -62,7 +62,7 @@ pip install tensorflow==2.19.0 numpy==2.1.3 pandas==2.2.3 astropy==7.0.1 scikit-
 **Note:**  
 - All photometric magnitudes should not contain any NaN values.
 
-
+---
 ## Usage Example:
 
 ```bash
@@ -72,6 +72,8 @@ An early stopping criterion is employed, allowing the number of training epochs 
 
 You can download the `data.fits` file for a test run 
 
+---
+
 ## Output
 After training, **Hybrid-z** generates the following output in the specified `output_dir`:
 
@@ -79,7 +81,6 @@ After training, **Hybrid-z** generates the following output in the specified `ou
   `model_weights.weights.h5`  
   Saved trained model weights for future inference or fine-tuning.
 
----
 
 - **Redshift Distribution Histogram**  
   `redshift_distribution.png`  
@@ -92,9 +93,7 @@ After training, **Hybrid-z** generates the following output in the specified `ou
   - `mae_curve.png`  
     Training and validation Mean Absolute Error (MAE) per epoch.
 
----
-
--** Final Prediction Table**
+- **Final Prediction Table**
   `result_test.fits`  
   Contains the model’s predictions and associated metadata for the test sample, including:
 
