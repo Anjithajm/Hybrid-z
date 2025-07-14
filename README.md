@@ -72,15 +72,14 @@ An early stopping criterion is employed, allowing the number of training epochs 
 
 You can download the `data.fits` file for a test run 
 
-After training, **Hybrid-z** generates the following deliverables in the specified `output_dir`:
+## Output
+After training, **Hybrid-z** generates the following output in the specified `output_dir`:
 
 - **Model Weights**  
   `model_weights.weights.h5`  
   Saved trained model weights for future inference or fine-tuning.
 
 ---
-
-## Output
 
 - **Redshift Distribution Histogram**  
   `redshift_distribution.png`  
@@ -95,9 +94,7 @@ After training, **Hybrid-z** generates the following deliverables in the specifi
 
 ---
 
-## Final Prediction Table
-
-- **FITS file**  
+-** Final Prediction Table**
   `result_test.fits`  
   Contains the model’s predictions and associated metadata for the test sample, including:
 
