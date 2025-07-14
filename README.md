@@ -71,11 +71,11 @@ python model.py --input_file data.fits --output_dir ./output --image_column imag
 `crop_size` is the desired image size for the model training. It is in pixel units.
 To compute the cutout size in pixel units:
 
-- **Desired cutout size** = 8 arcseconds  
+- **cutout size_arcsec** = 8 arcseconds  
 - **Pixel scale** = 0.2 arcseconds per pixel  
 
 The number of pixels along one dimension is given by:
-cutout_pixels = cutout_size_arcsec / pixel_scale_arcsec_per_pixel
+cutout_size_pixels = cutout_size_arcsec / pixel_scale
 
 **Final cutout size**: **40 × 40 pixels**
 
