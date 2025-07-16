@@ -64,6 +64,7 @@ pip install tensorflow==2.19.0 numpy==2.1.3 pandas==2.2.3 astropy==7.0.1 scikit-
 
 ---
 ## Usage Example:
+This section explains how to train the model. 
 
 ```bash
 python model.py --input_file data.fits --output_dir ./output --image_column image --mag_columns umag gmag rmag imag Zmag Ymag Jmag Hmag KSmag --z_column Zspec --additional_columns RA DEC --crop_size 25 --batch_size 32 --epochs 5
