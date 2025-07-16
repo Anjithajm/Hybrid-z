@@ -90,7 +90,7 @@ After training, **Hybrid-z** generates the following output in the specified `ou
 
 - **Model Weights**  
   `model_weights.weights.h5`  
-  Saved trained model weights for future inference or fine-tuning.
+  Saved trained model weights for future testing.
 
 
 - **Redshift Distribution Histogram**  
