@@ -46,7 +46,7 @@ pip install tensorflow==2.19.0 numpy==2.1.3 pandas==2.2.3 astropy==7.0.1 scikit-
 - **Column Names:** As specified via the `--additional_columns` argument  
   *(e.g., `RA`, `DEC`)*  
 - **Data Type:** Float or string  
-- **Description:** Additional parameters to be saved in the final output prediction table.
+- **Description:** Additional columns to be saved in the final output prediction table.
 
 ---
 
