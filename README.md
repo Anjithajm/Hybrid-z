@@ -116,10 +116,6 @@ After training, **Hybrid-z** generates the following output in the specified `ou
   - Residuals between predicted and true redshifts:
     - `dz` = Δz = Z_phot - Z_spec
     - `normalized_dz` = Δz / (1 + Z_spec)
-
----
-
-These outputs provide both quantitative and qualitative insights into the model’s performance and support further scientific analysis, visualization, and validation.
 ---
 ## How to use the pre-trained model weights?
 To use the saved model weights for photometric redshift prediction, run the test.py script with the required arguments. Example usage is:
