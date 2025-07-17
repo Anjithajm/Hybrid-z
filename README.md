@@ -123,5 +123,6 @@ To use the saved model weights for photometric redshift prediction, run the `tes
 python test.py --input_file data.fits --image_column image --crop_size 25 --mag_columns umag gmag rmag imag Zmag Ymag Jmag Hmag KSmag --additional_columns RA DEC --weights_path /model_weights.weights.h5 --output_dir ./predictions
 ```
 The output table will be saved in the `predictions` directory
+
 **Note: The `crop_size` parameter must match the image crop size used during model training.
 
