@@ -40,7 +40,7 @@ pip install tensorflow==2.19.0 numpy==2.1.3 pandas==2.2.3 astropy==7.0.1 scikit-
 ###  Spectroscopic Redshift Column  
 - **Column Name:** As specified via the `--z_column` argument (e.g., `Zspec`)  
 - **Data Type:** Float  
-- **Description:** Spectroscopic redshift value for each source, used as the ground truth for training and validation.
+- **Description:** Spectroscopic redshift value for each source, used as the ground truth for training, validation, and testing.
 
 ###  Additional Columns *(Optional)*  
 - **Column Names:** As specified via the `--additional_columns` argument  
