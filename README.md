@@ -124,5 +124,5 @@ python test.py --input_file data.fits --image_column image --crop_size 25 --mag_
 ```
 The output table will be saved in the `predictions` directory
 
-**Note: The `crop_size` parameter must match the image crop size used during model training.
+**Note:** The `crop_size` parameter must match the image crop size used during model training.
 
