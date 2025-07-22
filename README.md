@@ -1,4 +1,4 @@
-# Hybrid-z
+
 <img width="400" height="220" alt="image" src="https://github.com/user-attachments/assets/add803cf-2928-4366-8510-5fb8c4e35299" />
 
 
