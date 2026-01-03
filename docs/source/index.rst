@@ -22,6 +22,7 @@ Contents
    :caption: Contents:
 
    installation
+   data
    usage
-   api
+   output
 
