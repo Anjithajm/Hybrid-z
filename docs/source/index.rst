@@ -14,8 +14,6 @@ and the :doc:`installation` section for setting up the environment.
 
    This project is under active development.
 
-Contents
---------
 
 .. toctree::
    :maxdepth: 2
