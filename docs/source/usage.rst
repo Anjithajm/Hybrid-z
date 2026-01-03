@@ -1,16 +1,3 @@
-Usage
-=====
-
-.. _usage:
-
-Installation
-------------
-
-To use Hybrid-z, first make sure you have installed the required dependencies:
-
-.. code-block:: bash
-
-    pip install tensorflow==2.19.0 numpy==2.1.3 pandas==2.2.3 astropy==7.0.1 scikit-learn==1.6.1 matplotlib==3.10.0
 
 Training the model
 ------------------
