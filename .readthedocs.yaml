@@ -2,6 +2,8 @@ version: 2
 
 sphinx:
   configuration: docs/source/conf.py
+  builder: html
+docs_dir: docs/source
 
 python:
   version: 3.10
