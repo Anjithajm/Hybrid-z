@@ -22,6 +22,7 @@ The source code is available on GitHub at `<https://github.com/Anjithajm/Hybrid-
   
 
    installation
+   cite
    data
    usage
    output
