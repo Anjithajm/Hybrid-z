@@ -7,8 +7,10 @@ It combines convolutional neural networks and fully connected layers to predict 
 For a detailed description of the methodology, see the publication:  
 `A&A 2025 <https://www.aanda.org/articles/aa/full_html/2025/06/aa53576-24/aa53576-24.html>`_.
 
-Check out the :doc:`usage` section for instructions on running the model,  
-and the :doc:`installation` section for setting up the environment.
+Check out the :doc:`installation` section for setting up the environment and the :doc:`usage` section for instructions on running the model.
+
+The source code is available on GitHub at `<https://github.com/Anjithajm/Hybrid-z>`_.
+
 
 .. note::
 
