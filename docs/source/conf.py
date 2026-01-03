@@ -6,7 +6,6 @@ project = 'Hybrid-z'
 author = 'Anjitha M'
 copyright = '2026, Anjitha M'
 
-# The full version, including alpha/beta/rc tags
 release = '1.0'
 version = '1.0.0'
 
@@ -14,16 +13,16 @@ version = '1.0.0'
 
 # Sphinx extensions
 extensions = [
-    'sphinx.ext.duration',       # optional: build duration reporting
-    'sphinx.ext.doctest',        # optional: test snippets in docs
-    'sphinx.ext.autodoc',        # automatically document Python modules
-    'sphinx.ext.autosummary',    # generate API summary pages
-    'sphinx.ext.intersphinx',    # link to other projects docs
-    'sphinx.ext.napoleon',       # support NumPy / Google style docstrings
-    'sphinx_autodoc_typehints',  # optional: include type hints in docs
+    'sphinx.ext.duration',
+    'sphinx.ext.doctest',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.napoleon',
+    'sphinx_autodoc_typehints',
 ]
 
-# Intersphinx mapping (link to external documentation)
+# Intersphinx mapping
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
     'tensorflow': ('https://www.tensorflow.org/api_docs/python', None),
@@ -31,25 +30,37 @@ intersphinx_mapping = {
 }
 intersphinx_disabled_domains = ['std']
 
-# Paths for templates
 templates_path = ['_templates']
-
-# List of patterns to ignore
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-
-# Generate autosummary pages automatically
 autosummary_generate = True
 
-# -- Options for HTML output -------------------------------------------------
-
+# HTML output
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
-# -- Options for EPUB output -------------------------------------------------
+# EPUB output
 epub_show_urls = 'footnote'
 
-# -- API module paths --------------------------------------------------------
+# -- Add repo root to sys.path for autodoc -----------------------------------
 
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../'))  # Add repo root to Python path
+sys.path.insert(0, os.path.abspath('../'))  # repo root
+
+# -- Mock heavy dependencies for Read the Docs --------------------------------
+# RTD cannot install TensorFlow, NumPy, Pandas, Matplotlib, etc.
+# So we mock them during the doc build to avoid import errors
+
+from unittest.mock import MagicMock
+
+MOCK_MODULES = [
+    'tensorflow',
+    'numpy',
+    'pandas',
+    'matplotlib',
+    'astropy',
+    'sklearn'
+]
+
+for mod_name in MOCK_MODULES:
+    sys.modules[mod_name] = MagicMock()
