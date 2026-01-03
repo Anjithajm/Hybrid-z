@@ -17,18 +17,8 @@ Install from repository
 
 2. Install dependencies:
 
+To use Hybrid-z, first make sure you have installed the required dependencies:
+
 .. code-block:: bash
 
-   pip install -r requirements.txt
-
-Dependencies
-------------
-
-The main dependencies are:
-
-*TensorFlow 2.19.0
-* NumPy 2.1.3
-* Pandas 2.2.3
-* Astropy 7.0.1
-* scikit-learn 1.6.1
-* Matplotlib 3.10.0
+    pip install tensorflow==2.19.0 numpy==2.1.3 pandas==2.2.3 astropy==7.0.1 scikit-learn==1.6.1 matplotlib==3.10.0
