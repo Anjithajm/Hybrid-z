@@ -105,7 +105,7 @@ The ``crop_size`` is the desired image size for the model training (in pixels). 
 
 .. math::
 
-   \text{cutout\_size\_pixels} = \frac{\text{cutout\_size\_arcsec}}{\text{pixel\_scale}}
+   \text{cutout size pixels} = \frac{\text{cutout size arcsec}}{\text{pixel scale}}
 
 **Final cutout size:** 40 × 40 pixels
 
