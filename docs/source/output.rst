@@ -39,7 +39,7 @@ Contains the model’s predictions and associated metadata for the test sample, 
   - ``dz`` = Δz = Z_phot - Z_spec
   - ``normalized_dz`` = Δz / (1 + Z_spec)
 
-How to Use the Pre-Trained Model
+How to Use the Pre-Trained Model?
 ================================
 
 To use the saved model weights for photometric redshift prediction, run the ``test.py`` script with the required arguments. Example usage:
@@ -57,3 +57,5 @@ To use the saved model weights for photometric redshift prediction, run the ``te
 The output table will be saved in the ``predictions`` directory.
 
 .. note:: The ``crop_size`` parameter must match the image crop size used during model training.
+
+
