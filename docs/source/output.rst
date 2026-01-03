@@ -56,4 +56,4 @@ To use the saved model weights for photometric redshift prediction, run the ``te
 
 The output table will be saved in the ``predictions`` directory.
 
-**Note:** The ``crop_size`` parameter must match the image crop size used during model training.
+.. note:: The ``crop_size`` parameter must match the image crop size used during model training.
