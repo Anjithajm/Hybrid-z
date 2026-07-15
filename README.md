@@ -7,7 +7,12 @@
 For a detailed description of the methodology, please refer to the following publication and cite it if you use: https://www.aanda.org/articles/aa/full_html/2025/06/aa53576-24/aa53576-24.html
 
 See the documentation at: https://hybrid-z.readthedocs.io/en/latest/
-
+<p align="left">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.9%2B-blue">
+  <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-2.x-orange">
+  <img alt="Task" src="https://img.shields.io/badge/Task-Photometric%20Redshift-purple">
+  <img alt="Output" src="https://img.shields.io/badge/Output-singlevalue-green">
+</p>
 ---
 
 ## Requirements
