@@ -9,7 +9,7 @@ For a detailed description of the methodology, please refer to the following pub
 See the documentation at: https://hybrid-z.readthedocs.io/en/latest/
 <p align="left">
   <img alt="Python" src="https://img.shields.io/badge/Python-3.9%2B-blue">
-  <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-2.x-orange">
+  <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-2.19.0-orange">
   <img alt="Task" src="https://img.shields.io/badge/Task-Photometric%20Redshift-purple">
   <img alt="Output" src="https://img.shields.io/badge/Output-singlevalue-green">
 </p>
